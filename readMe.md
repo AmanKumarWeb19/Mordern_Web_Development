@@ -1,9 +1,8 @@
 # Cynthia Ugwu Portfolio Website
 
-![Project Preview](![Alt text](<Screenshot (582).png>))
-
 Cynthia Ugwu Portfolio Website is a personal website showcasing the work and information of product designer Cynthia Ugwu. The website provides insights into Cynthia's design philosophy, projects, and contact information.
 
+## Getting Started
 
 ## Features
 
@@ -13,13 +12,6 @@ Cynthia Ugwu Portfolio Website is a personal website showcasing the work and inf
 - About section providing insights into Cynthia's design philosophy and interests.
 - Subscription section for users to stay updated through YouTube channel.
 - Footer with social media links for connecting with Cynthia.
-
-## Screenshots
-
-![Screenshot 1](![Alt text](<Screenshot (582).png>))
-![Screenshot 2](![Alt text](<Screenshot (582).png>))
-
-## Getting Started
 
 ### Prerequisites:-
 
