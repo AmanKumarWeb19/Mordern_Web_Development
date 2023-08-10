@@ -92,3 +92,106 @@ body {
   border-radius: 50%;
   background-color: #888;
 }
+#second {
+  padding-right: 10vw;
+  padding-top: 200px;
+  background-color: black;
+  width: 100%;
+  /* height: 100vh; */
+  color: #fff;
+}
+.elem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 3.5vw 3vw;
+  padding-right: 0;
+  border-top: 1px solid #888;
+  position: relative;
+}
+.elem h1 {
+  text-transform: uppercase;
+  font-size: 7.5vw;
+  opacity: 0.7;
+}
+.elemlast {
+  border-bottom: 1px solid #888;
+}
+.elem img {
+  position: absolute;
+  z-index: 999;
+  height: 140%;
+  /* opacity: 0; */
+  display: none;
+}
+#about {
+  padding: 10vw 10vw;
+  padding-left: 40vw;
+  width: 100%;
+  background-color: black;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+#textabout {
+  width: 25rem;
+}
+#textabout h5 {
+  opacity: 0.5;
+  margin-bottom: 10px;
+}
+#textabout p {
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+#about img {
+  width: 200px;
+}
+#textabout a {
+  padding: 12px 22px;
+  border: 1px solid #fff;
+  border-radius: 100px;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+#subscribe {
+  background-color: black;
+  color: #fff;
+  padding: 20px 30px;
+  padding-bottom: 7vw;
+}
+#subscribe h5 {
+  text-transform: uppercase;
+  opacity: 0.6;
+}
+#subscribe h3 {
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-top: 10px;
+}
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 30px;
+  background-color: black;
+  color: #fff;
+}
+#footerleft {
+  display: flex;
+  gap: 20px;
+}
+#footerright {
+  display: flex;
+  gap: 30px;
+}
+#footer a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 500;
+}
