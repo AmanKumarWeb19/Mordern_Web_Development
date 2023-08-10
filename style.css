@@ -9,14 +9,32 @@ body {
   width: 100%;
   height: 100%;
 }
+#minicircle {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  background-color: #fff;
+  z-index: 99999;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+.bounding {
+  width: fit-content;
+  overflow: hidden;
+}
+.bounding .boundingelem {
+  transform: translateY(100%);
+}
 #main {
   width: 100%;
+  background-color: black;
 }
 #hero {
   width: 100%;
   height: 100vh;
   background-color: black;
   color: #fff;
+  position: relative;
 }
 #nav {
   display: flex;
@@ -48,6 +66,9 @@ body {
 }
 .blocktext {
   width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 .blocktext h5 {
   text-align: right;
@@ -58,6 +79,9 @@ body {
 #chotiheading {
   margin-top: 100px;
   padding-right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
 }
 #chotiheading h5 {
   text-align: right;
@@ -101,6 +125,7 @@ body {
   color: #fff;
 }
 .elem {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -108,7 +133,6 @@ body {
   padding: 3.5vw 3vw;
   padding-right: 0;
   border-top: 1px solid #888;
-  position: relative;
 }
 .elem h1 {
   text-transform: uppercase;
@@ -122,8 +146,10 @@ body {
   position: absolute;
   z-index: 999;
   height: 140%;
-  /* opacity: 0; */
-  display: none;
+  opacity: 0;
+  /* display: none; */
+  pointer-events: none;
+  transform: translate(-50%, -50%);
 }
 #about {
   padding: 10vw 10vw;
